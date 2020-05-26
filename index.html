@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>My page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: rgb(88, 119, 165);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    a:visited {
+        color: rgb(67, 121, 62);
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="https://www.facebook.com/VALORANTKR/">game</a> <br>
+                <a href="https://www.youtube.com/watch?v=rp31_j9knMI">music</a> <br>
+                <a href="https://www.youtube.com/watch?v=VWmaCIR2avk">study</a> <br>
+                <a href="https://www.youtube.com/watch?v=BKMRnLC91qY">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my world of work & life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b> 송채원 </b></h1>
+            <h1 class="xxxlarge colorname" id="game"><b>Game</b></h1>
+            <hr style="width:40%; border:5px solid rgb(58, 55, 55); float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="발로란트.jpg" style="width:100%" alt="">
+                <img src="발로란트_1.jpg" style="width:100%" alt="">
+            </div>
+            <p>저는 요즘 새로나온 발로란트 라는 게임을 하며 시간을 보냅니다.
+            </p>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="music" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>Music</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p>저는 요즘 일렉트로닉, 팝 장르를 즐겨 듣습니다.</p>
+            <p> 특히 마틴게릭스의 노래를 즐겨듣습니다. 이번에 팝 장르의 신곡이 나왔는데 노래가 너무 좋습니다. 다들 한번씩 들어보세요!
+            </p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="study" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>Study</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p>수능이 끝난 이후로 공부를 해본 기억이 많이 없는것 같습니다. </p>
+            <p>대학생활의 첫학기를 잘 마무리 하기위해서 오늘부터라도 열심히 해봐야 겠습니다.
+            </p>
+       
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-0000-0000</li>
+                
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/chaechae___1/" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 송채원 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
